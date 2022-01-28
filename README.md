@@ -18,3 +18,5 @@ Contents of the repository:
 * <code>data/</code>
   * <code>ri_statewide_2020_04_01.csv</code>: traffic stops dataset
   * <code>USW00014765.csv</code>: weather information dataset
+
+This project is inspired by the [DataCamp](https://app.datacamp.com/) project.
