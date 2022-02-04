@@ -1,0 +1,9 @@
+\begin{tabular}{lrr}
+\toprule
+ Outcome & Female &  Male \\
+\midrule
+citation &  0.955 & 0.947 \\
+ warning &  0.039 & 0.036 \\
+  arrest &  0.006 & 0.017 \\
+\bottomrule
+\end{tabular}
