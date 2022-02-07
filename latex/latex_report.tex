@@ -3,6 +3,8 @@
 \usepackage{graphicx}
 \usepackage[section]{placeins}
 \usepackage{booktabs}
+\usepackage[export]{adjustbox}
+\usepackage[a4paper, margin=2cm]{geometry}
 
 
 \title{Traffic stops at Rhode Island}
@@ -15,12 +17,15 @@
 \newpage
 \tableofcontents
 \newpage
-\section{Reason for speed by gender}
+\section{Studies by gender}
 
- \begin{figure}
-\includegraphics[width=0.8\textwidth]{../figures/reason_gender.png}
+ \begin{figure}[h]
+\includegraphics[scale=0.34, valign=t]{../figures/reason_gender.png}
+\includegraphics[scale=0.34, valign=t]{../figures/speeding_outcome_gender.png}
+\includegraphics[scale=0.34, valign=t]{../figures/search_reason_gender.png}
+\caption{Write some caption here}
 \end{figure}   
-
+\FloatBarrier
 
 
 \begin{tabular}{lrr}
@@ -41,12 +46,8 @@ Violation of City/Town Ordinance &  0.002 & 0.002 \\
                          Warrant &  0.000 & 0.000 \\
 \bottomrule
 \end{tabular}
-\FloatBarrier
 
-\section{Outcome of speeding by gender}
- \begin{figure}
-\includegraphics[width=0.8\textwidth]{../figures/speeding_outcome_gender.png}
-\end{figure}
+
 
 \begin{tabular}{lrr}
 \toprule
@@ -58,5 +59,25 @@ citation &  0.955 & 0.947 \\
 \bottomrule
 \end{tabular}
 
-\FloatBarrier
+
+\begin{tabular}{lrr}
+\toprule
+{} &  Search rate & \\
+Reason for stop                 &  female       &   male    \\
+\midrule
+APB                              &   0.165 & 0.255 \\
+Call for Service                 &   0.042 & 0.092 \\
+Equipment/Inspection Violation   &   0.040 & 0.071 \\
+Motorist Assist/Courtesy         &   0.033 & 0.090 \\
+Other Traffic Violation          &   0.038 & 0.059 \\
+Registration Violation           &   0.055 & 0.104 \\
+Seatbelt Violation               &   0.018 & 0.032 \\
+Special Detail/Directed Patrol   &   0.018 & 0.010 \\
+Speeding                         &   0.008 & 0.027 \\
+Suspicious Person                &   0.216 & 0.306 \\
+Violation of City/Town Ordinance &   0.060 & 0.073 \\
+Warrant                          &   0.148 & 0.311 \\
+\bottomrule
+\end{tabular}
+
 \end{document}

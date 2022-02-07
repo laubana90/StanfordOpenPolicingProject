@@ -1,0 +1,19 @@
+\begin{tabular}{lrr}
+\toprule
+{} &  female &  male \\
+reason\_for\_stop                  &         &       \\
+\midrule
+APB                              &   0.165 & 0.255 \\
+Call for Service                 &   0.042 & 0.092 \\
+Equipment/Inspection Violation   &   0.040 & 0.071 \\
+Motorist Assist/Courtesy         &   0.033 & 0.090 \\
+Other Traffic Violation          &   0.038 & 0.059 \\
+Registration Violation           &   0.055 & 0.104 \\
+Seatbelt Violation               &   0.018 & 0.032 \\
+Special Detail/Directed Patrol   &   0.018 & 0.010 \\
+Speeding                         &   0.008 & 0.027 \\
+Suspicious Person                &   0.216 & 0.306 \\
+Violation of City/Town Ordinance &   0.060 & 0.073 \\
+Warrant                          &   0.148 & 0.311 \\
+\bottomrule
+\end{tabular}
